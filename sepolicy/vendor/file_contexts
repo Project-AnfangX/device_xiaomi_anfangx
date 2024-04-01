@@ -1,6 +1,9 @@
 # Battery secret
 /vendor/bin/batterysecret                                         u:object_r:batterysecret_exec:s0
 
+# Elliptic
+/dev/elliptic[0-1]                                                   u:object_r:vendor_sysfs_iio:s0
+
 # IR
 /dev/ir_spi                                                          u:object_r:vendor_ir_device:s0
 

@@ -1,0 +1,1 @@
+allow ueventd vendor_sysfs_iio:chr_file { create setattr };
