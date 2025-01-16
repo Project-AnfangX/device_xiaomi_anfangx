@@ -7,7 +7,7 @@
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/tucana
+DEVICE_PATH := device/xiaomi/anfangx
 
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
@@ -16,7 +16,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/tucana.config
+TARGET_KERNEL_CONFIG += vendor/anfangx.config
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
@@ -52,7 +52,7 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 TARGET_USES_FOD_ZPOS := true
 
 # Inherit from tucana-miuicamera
-include vendor/xiaomi/tucana-miuicamera/products/board.mk
+#include vendor/xiaomi/tucana-miuicamera/products/board.mk
 
 # Inherit from proprietary files
-include vendor/xiaomi/tucana/BoardConfigVendor.mk
+include vendor/xiaomi/anfangx/BoardConfigVendor.mk

@@ -22,7 +22,7 @@ fi
 
 set -e
 
-export DEVICE=tucana
+export DEVICE=anfangx
 export DEVICE_COMMON=sm6150-common
 export VENDOR=xiaomi
 
