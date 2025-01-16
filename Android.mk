@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),tucana)
+ifeq ($(TARGET_DEVICE),anfangx)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
