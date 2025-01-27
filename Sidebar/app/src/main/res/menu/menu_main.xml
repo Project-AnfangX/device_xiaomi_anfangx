@@ -1,0 +1,14 @@
+<!--
+     SPDX-FileCopyrightText: 2025 Littlenine & Uwugl
+     SPDX-License-Identifier: GPL-3.0-only
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="Infinityfinder.sidebar.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

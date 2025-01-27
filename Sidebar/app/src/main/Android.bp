@@ -1,0 +1,22 @@
+//
+// SPDX-FileCopyrightText: 2025 Littlenine & Uwugl
+// SPDX-License-Identifier: GPL-3.0-only
+//
+
+android_app {
+    name: "Sidebar",
+    srcs: ["src/main/java/**/*.kt"],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+
+    sdk_version: "34",
+    static_libs: [
+        "com.google.android.material_material",
+        "androidx.core_core-ktx",
+        "androidx.appcompat_appcompat",
+        "androidx-constraintlayout_constraintlayout",
+        "androidx.navigation_navigation-fragment-ktx",
+        "androidx.navigation_navigation-ui-ktx",
+    ],
+
+}

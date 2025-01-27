@@ -1,0 +1,7 @@
+<!--
+     SPDX-FileCopyrightText: 2025 Littlenine & Uwugl
+     SPDX-License-Identifier: GPL-3.0-only
+-->
+<resources>
+    <dimen name="fab_margin">200dp</dimen>
+</resources>
