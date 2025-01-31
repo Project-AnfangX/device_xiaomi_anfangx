@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2025 Littlenine & Uwugl
      SPDX-License-Identifier: GPL-3.0-only
 -->
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

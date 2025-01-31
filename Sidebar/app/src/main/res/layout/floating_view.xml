@@ -1,20 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2025 Littlenine & Uwugl
      SPDX-License-Identifier: GPL-3.0-only
 -->
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="#80000000"
-    android:orientation="vertical">
+    android:background="@drawable/rounded_background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center">
 
-    <TextView
-        android:id="@+id/floating_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Floating Test"
-        android:textColor="#FFFFFF"
-        android:padding="16dp" />
+    <!-- Volume Up -->
+<ImageButton
+android:id="@+id/btn_volume_up"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:background="?attr/selectableItemBackgroundBorderless"
+android:scaleType="centerInside"
+android:src="@drawable/ic_baseline_volume_up"
+android:contentDescription="Volume Up" />
 
-</LinearLayout>
+    <!-- Volume Down -->
+<ImageButton
+android:id="@+id/btn_volume_down"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:background="?attr/selectableItemBackgroundBorderless"
+android:scaleType="centerInside"
+android:src="@drawable/ic_baseline_volume_down"
+android:contentDescription="Volume Down" />
+    
+    <!-- Power -->
+<ImageButton
+android:id="@+id/btn_power"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:background="?attr/selectableItemBackgroundBorderless"
+android:scaleType="centerInside"
+android:src="@android:drawable/ic_lock_power_off"
+android:contentDescription="Power" />
+
+    <!-- Screenshot -->
+<ImageButton
+android:id="@+id/btn_screenshot"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:background="?attr/selectableItemBackgroundBorderless"
+android:scaleType="centerInside"
+android:src="@android:drawable/ic_menu_camera"
+android:contentDescription="Screenshot" />
+
+    <!-- Back -->
+<ImageButton
+android:id="@+id/btn_back"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:background="?attr/selectableItemBackgroundBorderless"
+android:scaleType="centerInside"
+android:src="@android:drawable/ic_media_previous"
+android:contentDescription="Back" />
+
+    <!-- Home -->
+<ImageButton
+android:id="@+id/btn_home"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:background="?attr/selectableItemBackgroundBorderless"
+android:scaleType="centerInside"
+android:src="@drawable/baseline_home"
+android:contentDescription="Home" />
+
+    </LinearLayout>
